@@ -4,22 +4,22 @@ import { Container } from './container';
 
 <section class="about">
   <Container>
-    <h2 class="title">What is Timesy?</h2>
+    <h2 class="title">What is Timurr?</h2>
     <p class="desc">
-      Timesy is a free, open-source online timer designed to maximize focus and
-      eliminate distractions. Run multiple timers simultaneously and store them
-      locally for persistence across sessions. Whether you&apos;re a student,
-      professional, or just someone who needs to stay on track, Timesy can help
-      you achieve your goals.
+      Timurr is an online timer designed to maximize focus and eliminate
+      distractions, designed for the complex ADHD mind. Run multiple timers
+      simultaneously and store them locally for persistence across sessions.
+      Whether you&apos;re a student, professional, or just someone who needs to
+      stay on track, Timurr can help you achieve your goals.
     </p>
     <p class="desc support">
-      Enjoy Timesy?
+      Enjoy Timurr?
       <a
-        href="https://buymeacoffee.com/remvze"
+        href="https://buymeacoffee.com/godanielgo"
         rel="noreferrer"
         target="_blank"
       >
-        Support with a donation!
+        <i class="fas fa-coffee"></i> Buy me a coffee!
       </a>
     </p>
   </Container>
@@ -28,6 +28,7 @@ import { Container } from './container';
 <style>
   .about {
     margin-top: 48px;
+    text-align: center;
 
     & .title {
       margin-bottom: 12px;
@@ -39,12 +40,17 @@ import { Container } from './container';
     & .desc {
       line-height: 1.65;
       color: var(--color-foreground-subtle);
+      text-align: justify;
+      text-align-last: center;
 
       &:not(:last-of-type) {
+        padding-bottom: 24px; /* Adjust padding as needed */
         margin-bottom: 12px;
+        border-bottom: 1px dashed var(--color-neutral-200); /* Match the footer's dashed line */
       }
 
       &.support {
+        padding-top: 15px;
         font-size: var(--font-sm);
 
         & a {

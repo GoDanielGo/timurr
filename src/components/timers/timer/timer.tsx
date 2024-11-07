@@ -1,6 +1,6 @@
 import { useRef, useMemo, useState, useEffect, useCallback } from 'react';
 import { IoPlay, IoPause, IoRefresh, IoTrashOutline } from 'react-icons/io5';
-import { useHotkeys } from 'react-hotkeys-hook';
+//import { useHotkeys } from 'react-hotkeys-hook';
 
 import { Toolbar } from './toolbar';
 
@@ -139,13 +139,13 @@ export function Timer({ id, index }: TimerProps) {
     }
   }, [autoStart, handleStart, removeAutoStart, id]);
 
-  useHotkeys(`shift+${index + 1}`, () => handleToggle(), {
-    enabled: index < 9,
-  });
+  //useHotkeys(`shift+${index + 1}`, () => handleToggle(), {
+  //  enabled: index < 9,
+  //});
 
-  useHotkeys(`shift+alt+${index + 1}`, () => handleReset(), {
-    enabled: index < 9,
-  });
+  //useHotkeys(`shift+alt+${index + 1}`, () => handleReset(), {
+  //  enabled: index < 9,
+  //});
 
   return (
     <div className={styles.timer}>
@@ -226,14 +226,14 @@ export function Timer({ id, index }: TimerProps) {
         </button>
       </footer>
 
-      {index < 9 && (
+      {/*     {index < 9 && (
         <div className={styles.shortcut}>
           <span className={styles.key}>Shift</span>
           <span className={styles.text}>+</span>
           <span className={styles.key}>{index + 1}</span>
           <span className={styles.text}>to toggle play.</span>
         </div>
-      )}
+      )} */}
     </div>
   );
 }

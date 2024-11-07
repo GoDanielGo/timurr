@@ -1,15 +1,13 @@
 <div align="center">
-  <img src="/assets/banner.svg" alt="Timesy Logo Banner" />
-  <h2>Timesy ⏳️</h2>
-  <p>A distraction-free online timer.</p>
-  <a href="https://timesy.mvze.net">Visit <strong>Timesy</strong></a> | <a href="https://buymeacoffee.com/remvze">Buy Me a Coffee</a>
+  <img src="/assets/banner.svg" alt="Timurr Logo Banner" />
+  <h2>Timurr ⏳️</h2>
+  <p>A murmur's companion to keep track of time</p>
+  <a href="https://murmurs.stream">Visit <strong>Timurr</strong></a> | <a href="https://buymeacoffee.com/godanielgo">Buy Me a Coffee</a>
 </div>
 
 ## Features
 
-1. ⌛ Unlimited number of timers.
-1. ⚡ Run multiple timers simultaneously.
-1. 📝 Name timers for better management.
-1. 🛸 Minimal and distraction-free.
-1. ⭐ Privacy friendly; no data collection.
-1. 🪐 Free, open-source, and self-hostable.
+⌛ Unlimited number of timers.
+Run multiple timers simultaneously.
+📝 Name timers for better management.
+🛸 Minimal and distraction-free.
