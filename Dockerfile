@@ -9,4 +9,4 @@ FROM docker.io/caddy:latest
 COPY ./Caddyfile /etc/caddy/Caddyfile
 COPY --from=build /app/dist /var/www/html
 
-EXPOSE 8080
+EXPOSE 80
